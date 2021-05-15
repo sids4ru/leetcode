@@ -1,0 +1,27 @@
+<head>
+    <script src="canCross2	.js"	></script>
+</head>
+
+<body>
+    <input id="data"></input>
+    
+    <button onclick="callFunction()">Execute</button>
+    <p id="result"></p>
+<script>
+    var nextTopic = ["Array","Binary","LL","Tree", "Graph","Interval","matrix","string","heap","Backtracking","Search&Sort","DP","Design","Math","Others","take Test"];
+    console.log("Next topic ---===>> " + nextTopic[Math.round(Math.random()*(nextTopic.length))]);
+//Call function .................................................................
+function callFunction(){
+    var data = document.getElementById("data").value;
+    var pal = longestPalindrome(data);
+    document.getElementById("result").innerHTML=pal;
+}
+
+</script>
+
+
+</body>
+
+
+
+My number: 9845991771

@@ -1,4 +1,5 @@
 //Find intersection of linked lists, the list may contain loop, in this case throw error
+// Asked in BP online assessment 
 
 var Node = function (val) {
     this.val = val;
